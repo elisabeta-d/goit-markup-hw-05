@@ -625,6 +625,7 @@ li {
 }
 
 .modal-content {
+    position: relative;
     background-color: rgba(255, 255, 255, 1);
     width: 528px;
     height: 581px;
@@ -640,6 +641,7 @@ li {
 .transform:nth-child(1) {
     transform: scale(1);
     animation: animate125 3000ms infinite 1000ms;
+    
 }
 @keyframes animate125 {
   0% {
@@ -662,8 +664,8 @@ li {
     color: rgba(0, 0, 0, 1);
     width: 30px;
     height: 30px;
-    top: 229px;
-    left: 1026px;
+    top: 0;
+    right: 0;
     position: absolute;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
